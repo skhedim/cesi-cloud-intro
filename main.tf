@@ -10,9 +10,6 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region     = "us-east-1"
-  access_key = "ASIAXUXK4Z3TDCSIOVMG"
-  secret_key = "BRpPXCpgabhstYfjt73FvR28rnNTUFPzEM19EySC"
-  token      = "FwoGZXIvYXdzEOH//////////wEaDBORR/66hyW+KS6rciK9Ae6bK0AZZmIg5dmtEKywNucDy8y1j0d7GtKhGODUkh+L+eZbo18tJiGwMt3vVASZJYzaNi1bKny1XsN3wYIdCCv83V4D9nTI9F7zOX3rBrf/54qMUTv1REo3UuZKtzcuYuwFwTapOxEtF0db3KzzdwqmU/XYLn4QFEwvzUwcGibHrCptcxq24t32UsGx2Dm0MQgvA4Cr1Dn5Sdd8btxZk8omyCmQpkYUdaK6L4rgmm4d31YCBKgEEiFAV/HKTyjO1aSLBjItjXfb5dzAydmmOmWN7SvM9RU+2r74I31qdI1OWhdQnsM8ToIzgBar1RBC2bQr"
 }
 
 resource "aws_vpc" "epsi-tf" {
